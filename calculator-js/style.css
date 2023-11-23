@@ -47,6 +47,10 @@ button{
     box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.1);
     cursor: pointer;
 }
+.equal{
+    background-color: rgb(50, 180, 119);
+    color: #fff;
+}
 .operator{
-    color:#33ffd8;;
+    color:#33ffd8;
 }
