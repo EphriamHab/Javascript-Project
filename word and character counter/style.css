@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #28282828;
+}
+.wrapper{
+    position: relative;
+    width: 31.25em;
+}
+.inputBox{
+    background-color: #535d7f;
+    border-radius: 0.5em;
+    padding: 4em 2em;
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    border: none;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5em;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+}
+#analyzeBtn{
+    position: relative;
+    width: 100%;
+    padding: 1.5em;
+    margin-top: 1em;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color:#3d7ff9;
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+#output{
+    position: relative;
+    width: 120%;
+    right: 10%;
+    background-color: #fff;
+    margin-top: -8em;
+    z-index: -1;
+    padding: 10em 2em 3em 2em;
+    border-radius: 0.5em;
+}
+.output-container{
+   font-weight: 600; 
+}
+.output-container span{
+    font-weight: 400;
+}
